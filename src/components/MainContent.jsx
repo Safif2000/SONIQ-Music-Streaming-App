@@ -486,7 +486,7 @@ function ArtistPage() {
           <span className="liked-label-tag">ARTIST</span>
           <h1 className="artist-page-name">{activeArtist.name}</h1>
           <p className="artist-page-followers">{activeArtist.followers} followers · {activeArtist.genre}</p>
-          <div style={{ display: 'flex', gap: '10px', marginTop: '16px' }}>
+          <div className='artist-btn_container' style={{ display: 'flex', gap: '10px', marginTop: '16px' }}>
             {artistSongs.length > 0 && (
               <button className="hero-play-btn" onClick={() => playSong(artistSongs[0], artistSongs)}>
                 <Icon name="play" size={16} /> Play All
