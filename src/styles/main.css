@@ -1215,7 +1215,7 @@ a { color: inherit; text-decoration: none; }
    
 }
 .artist-page-name {
-    font-size: 22px;
+    font-size: 22px !important;
   
 }
 
