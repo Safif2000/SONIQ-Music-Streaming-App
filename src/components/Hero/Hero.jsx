@@ -31,7 +31,7 @@ export default function Hero() {
               <Icon name={isPlaying && isThisSong ? 'pause' : 'play'} size={18} />
               {isPlaying && isThisSong ? 'Pause' : 'Play Now'}
             </button>
-            <button className="hero-save-btn">Add to Library</button>
+            {/* <button className="hero-save-btn">Add to Library</button> */}
           </div>
         </div>
 
